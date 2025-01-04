@@ -8,7 +8,7 @@ const ButtonContainer=()=>{
 
     return (
         <div className={styles.buttonContainer}>
-            {buttonNames.map(buttonName=><button className={styles.button}>{buttonName}</button>)}
+            { buttonNames.map(buttonName=><button className={styles.button}>{buttonName}</button>)}
         
       </div>
     ) 
